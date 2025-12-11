@@ -13,7 +13,7 @@ const initialVotes: Votes = {
   neutral: 0,
   bad: 0,
 };
-
+// Run //
 export default function App() {
   const [votes, setVotes] = useState<Votes>(initialVotes);
 
