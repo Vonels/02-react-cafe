@@ -6,7 +6,7 @@ import VoteOptions from "../VoteOptions/VoteOptions";
 import VoteStats from "../VoteStats/VoteStats";
 import Notification from "../Notification/Notification";
 
-import type { Votes, VoteType } from "../../Types/votes";
+import type { Votes, VoteType } from "../../types/votes";
 
 const initialVotes: Votes = {
   good: 0,
